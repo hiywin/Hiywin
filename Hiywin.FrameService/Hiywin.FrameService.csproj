@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hiywin.Common\Hiywin.Common.csproj" />
+    <ProjectReference Include="..\Hiywin.Entities\Hiywin.Entities.csproj" />
+    <ProjectReference Include="..\Hiywin.IFrameService\Hiywin.IFrameService.csproj" />
+    <ProjectReference Include="..\Hiywin.Models\Hiywin.Models.csproj" />
+  </ItemGroup>
+
+</Project>
